@@ -24,7 +24,17 @@ Project Overview
 - Data Preprocessing: Images are normalized and transformed to improve model performance.
 - Training and Evaluation: Both models are trained using cross-entropy loss and optimized with Adam optimizer.
 
-## Installation
+# Installation
 1. Clone the repository:
-'''
+```
 git clone https://github.com/haikalthrq/MNIST-CIFAR10-Image-Classifier.git
+```
+
+# Results
+- MNIST Notebook: The CNN model achieves high accuracy on the test set, typically around 82%.
+- CIFAR-10 Notebook: With a CNN architecture, the model can achieve up to 99% accuracy on the test set.
+
+# Future Improvements
+- Experiment with more advanced architectures like ResNet or VGG for CIFAR-10.
+- Use data augmentation techniques to improve generalization further for MNIST.
+- Implement learning rate schedulers for dynamic optimization for MNIST.
