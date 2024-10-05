@@ -25,7 +25,6 @@ Project Overview
 - Training and Evaluation: Both models are trained using cross-entropy loss and optimized with Adam optimizer.
 
 # Installation
-1. Clone the repository:
 ```
 git clone https://github.com/haikalthrq/MNIST-CIFAR10-Image-Classifier.git
 ```
