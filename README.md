@@ -1,30 +1,29 @@
-# MNIST and CIFAR-10 Image Classification
+## MNIST and CIFAR-10 Image Classification
 
-This repository contains deep learning models for image classification tasks using the MNIST and CIFAR-10 datasets. These models are built using PyTorch and implement Convolutional Neural Networks (CNNs) to classify images with high accuracy.
+This repository contains two separate notebooks for image classification tasks using the MNIST and CIFAR-10 datasets. These notebooks leverage PyTorch to implement Convolutional Neural Networks (CNNs) for accurate classification of images.
 
-## Overview
+Project Overview
+- MNIST-ImageClassification.ipynb: This notebook focuses on the classification of handwritten digits using the MNIST dataset. It walks through building a CNN model and training it to recognize digits (0-9) from grayscale images of size 28x28.
 
-- **MNIST**: A dataset of handwritten digits (0-9) with 60,000 training samples and 10,000 test samples. The task is to classify the digits.
-- **CIFAR-10**: A dataset of 60,000 32x32 color images across 10 classes, including airplanes, cars, birds, cats, and more.
+- CIFAR10-ImageClassification.ipynb: This notebook focuses on classifying images from the CIFAR-10 dataset, which contains 32x32 colored images across 10 classes (airplanes, cars, birds, etc.). A more complex CNN architecture is used due to the complexity and diversity of the images.
 
-This project explores different deep learning techniques and optimizations for accurate image classification on both datasets.
+# Datasets
+1. MNIST Dataset:
+- Description: 70,000 images of handwritten digits (0-9), with 60,000 images for training and 10,000 images for testing.
+- Image Size: 28x28 pixels, grayscale.
+- Number of Classes: 10 (digits 0-9).
 
-## Key Features
+3. CIFAR-10 Dataset:
+- Description: A dataset containing 60,000 32x32 color images in 10 classes, with 50,000 for training and 10,000 for testing.
+- Image Size: 32x32 pixels, RGB color images.
+- Number of Classes: 10 (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck).
 
-- **Deep CNN Architecture**: Multiple convolutional layers are used to extract hierarchical features from images.
-- **Data Augmentation**: Random cropping, horizontal flipping, and normalization are applied to improve generalization.
-- **Regularization**: Techniques like dropout and weight decay are used to reduce overfitting.
-- **Learning Rate Scheduling**: The learning rate decreases over time to fine-tune the model performance.
-- **Adam Optimizer**: Utilized for efficient training and convergence.
+# Key Features
+- Deep Learning Framework: Both notebooks use PyTorch to build, train, and evaluate Convolutional Neural Networks (CNNs).
+- CNN Architecture: The notebooks demonstrate the use of convolutional layers, pooling layers, and fully connected layers to extract features from images and classify them.
+- Data Preprocessing: Images are normalized and transformed to improve model performance.
+- Training and Evaluation: Both models are trained using cross-entropy loss and optimized with Adam optimizer.
 
-## Dataset Information
-
-- **MNIST**: 10 classes of grayscale handwritten digit images of size 28x28.
-- **CIFAR-10**: 10 classes of 32x32 color images across various objects (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck).
-
-## Requirements
-
-Before running the code, make sure you have the necessary dependencies installed:
-
-```bash
-pip install -r requirements.txt
+## Installation
+1. Clone the repository:
+''' git clone
