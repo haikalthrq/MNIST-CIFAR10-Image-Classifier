@@ -26,4 +26,5 @@ Project Overview
 
 ## Installation
 1. Clone the repository:
-''' git clone
+'''
+git clone https://github.com/haikalthrq/MNIST-CIFAR10-Image-Classifier.git
